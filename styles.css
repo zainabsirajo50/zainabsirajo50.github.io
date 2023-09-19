@@ -1,0 +1,61 @@
+body {
+	background-image: url("green_background.jpeg");
+}
+
+
+
+table {
+
+    border-collapse: collapse;
+    width: 85%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+ }
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #8A9A5B;
+    color: white;
+}
+
+
+.header {
+	text-align: center;
+}
+
+
+.container {
+	display: flex;
+	background-color: #FFFFFF;
+	border: 8px solid #8A9A5B;
+	text-align: center;
+	padding: 20px;
+}
+
+.img {
+
+	flex: 1;
+	padding: 20px;
+
+}
+
+.quote {	
+	flex: 1;
+	padding: 20px;
+
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+
+	font-size: 20pt;
+}
